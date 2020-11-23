@@ -1,0 +1,149 @@
+header {
+  font: 300 20px/22px 'Noto Sans', Arial, Sans-serif;
+}
+
+body {
+  font: 300 16px/22px 'Noto Sans', Arial, Sans-serif;
+  background-color: #F0F0F0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-right: 20px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.footer {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+  margin-top: auto;
+  justify-content: center;
+  background-color: darkcyan;
+  font: 300 16px/22px 'Noto Sans', Arial, Sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: darkcyan;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline-block;
+  color: black;
+  margin:0px;
+}
+
+.logo a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+}
+
+.logo:hover a{
+  background-color: rgb(2, 179, 179);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: white;
+}
+
+.nav-item:hover a {
+  color: darkcyan;
+}
+
+
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: darkcyan;
+  color: white;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  background: rgb(2, 179, 179);
+  color: black;
+}
+
+.form {
+  font-size: 12px;
+}
+
+.addMessage {
+  text-align: left;
+  background-color: #FFFFFF;
+  border: 3px solid #A0B0C0;
+  padding: 6px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.addMessageForm {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.messageAdded {
+  text-align: left;
+  background-color: #FFFFFF;
+  border: 3px solid #A0B0C0;
+  padding: 6px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.addedMessageText {
+  min-width:500px;
+}
+
+.allMessages {
+  text-align: left;
+  background-color: #FFFFFF;
+  border: 3px solid #A0B0C0;
+  padding: 6px;
+  padding-top: 0px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.errorMessages {
+  align-items: center;
+  margin: 0 auto;
+}
