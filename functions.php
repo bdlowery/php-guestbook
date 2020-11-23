@@ -19,3 +19,4 @@ function validate_inputs($guestFirstName, $guestLastName, $guestMessage) {
 define("DB_PATH", "mysql:host=localhost;dbname=guestbook");
 define("DB_LOGIN", "root");
 define("DB_PW", "root");
+
